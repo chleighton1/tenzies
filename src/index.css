@@ -10,8 +10,8 @@ body {
 main {
   display: flex;
   margin: 0 auto;
-  width: 360px;
-  height: 379px;
+  width: 400px;
+  height: 400px;
   padding: 20px;
   flex-direction: column;
   justify-content: center;
@@ -21,14 +21,28 @@ main {
 
 .main-ui {
   display: flex;
-  width: 320px;
-  height: 320px;
-  padding: 34px;
+  width: 370px;
+  height: 370px;
+  padding: 25px;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
   background: #f5f5f5;
+}
+
+/* INSTRUCTIONS */
+
+.title {
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
 }
 
 /* DICE */
@@ -37,12 +51,13 @@ main {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 15px;
+  margin-bottom: 1rem;
 }
 
 .die {
   margin: auto 0;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
@@ -53,7 +68,7 @@ main {
 .die-value {
   color: #2b283a;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -63,8 +78,8 @@ main {
 .roll--btn {
   background-color: #5035ff;
   color: #fff;
-  width: 92px;
-  height: 36px;
+  width: 100px;
+  height: 40px;
   text-align: center;
   font-family: Karla;
   font-size: 16px;
